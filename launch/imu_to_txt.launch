@@ -1,0 +1,5 @@
+<launch>
+    <param name="imu_topic" type="string" value="/imu0"/>
+    <param name="file_name" type="string" value="test_file.txt"/>
+    <node pkg="imu_to_txt" name="imu_to_txt_node" type="imu_to_txt.py" output="screen"/>
+</launch>
